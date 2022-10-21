@@ -56,11 +56,6 @@ def takeCommand():
         return "None"
     return query
 
-# def waking():
-#     voicepath = 'C:\\Users\\Dhaval\\PycharmProjects\\pythonProject\\Hey Jarvis.pmdl
-#     os.startfile(voicepath)
-
-
 if __name__ == "__main__":
     wishMe()
     while True:
@@ -163,7 +158,6 @@ if __name__ == "__main__":
             pyautogui.hotkey('alt', 'f4')
 
         elif 'i want to search' in query or 'write' in query:
-
             speak("Ok sir, Please say what you want to write or search")
             s = takeCommand()
             pyautogui.write(s)
