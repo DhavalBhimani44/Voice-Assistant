@@ -77,7 +77,7 @@ if __name__ == "__main__":
         elif 'open google' in query:
             speak("Sir, What should I search on Google?")
             cm = takeCommand().lower()
-            webbrowser.open(f"{cm}")
+            webbrowser.open(f"www.google.com/{cm}")
 
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")
